@@ -10,19 +10,23 @@
 </head>
 
 <body>
-<div class="container">
-    <div class="row">
-        <div class="twelve columns">
-            <h1>Number Guesser</h1>
-            <p>Guess a number between <span id="low-num">1</span> and <span id="high-num"></span> 10</span></p>
-            <form action="">
-                <input type="text">
-                <input type="submit" value="submit">
-            </form>
-            <p id ="conf-msg"></p>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>Number Guesser</h1>
+                <p>Guess a number between
+                    <span id="low-num">1</span>
+                    and
+                    <span id="high-num">10</span></p>
+                <form action="">
+                    <input id="input" type="number">
+                    <input id="submit" type="submit" value="submit">
+                </form>
+                <p id="conf-msg"></p>
+            </div>
         </div>
     </div>
-</div>
+    <script src="app.js"></script>
 </body>
 
 </html>
